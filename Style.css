@@ -95,4 +95,55 @@ body{
    border-radius:20px;
    box-shadow:0px 5px 15px rgba(0,0,0,0.2);
    gap: 20px;
+
+}
+
+/* 📱 RESPONSIVE PARA CELULAR */
+@media (max-width:768px){
+
+body{
+    padding:20px;
+    gap:25px;
+}
+
+/* tarjetas */
+.img{
+    width:100%;
+    height:auto;
+    flex-direction:column; /* imagen arriba, texto abajo */
+    text-align:center;
+}
+
+/* imagen dentro de tarjeta */
+.img img{
+    width:100%;
+    height:auto;
+}
+
+/* textos */
+.title{
+    font-size:22px;
+}
+
+.texto p{
+    font-size:14px;
+}
+
+/* titulo grande */
+.foot{
+    font-size:35px;
+    text-align:center;
+}
+
+.foot2{
+    font-size:16px;
+    text-align:center;
+}
+
+/* imagen grande */
+.imagen img{
+    width:100%;
+    height:auto;
+}
+
 }
