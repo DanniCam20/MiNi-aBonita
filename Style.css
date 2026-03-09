@@ -1,0 +1,98 @@
+body{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#ff9ad5,#ff4da6);
+
+    display:flex;
+    flex-direction: column; /* los coloca uno debajo del otro */
+
+    align-items:center;     /* centra horizontalmente */
+    gap:40px;               /* espacio entre contenedores */
+
+    min-height:100vh;
+    padding:40px ;
+ 
+}
+
+/* CONTENEDOR PRINCIPAL */
+.img{
+    background: rgba(255,255,255,0.9);
+    width:550px;
+    height:350px;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    gap:25px;
+    padding:25px;
+    box-shadow:0px 10px 30px rgba(0,0,0,0.25);
+    transition: transform 0.3s;
+     
+}
+
+/* EFECTO AL PASAR EL MOUSE */
+.img:hover{
+    transform:scale(1.03);
+}
+
+/* IMAGEN */
+.img img{
+   width:200px;
+   height:230px;
+   object-fit:cover;
+   border-radius:20px;
+   box-shadow:0px 5px 15px rgba(0,0,0,0.2);
+   gap: 20px;
+}
+
+/* CONTENEDOR TEXTO */
+.texto{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+/* TITULO */
+.title{ 
+    font-size:28px;
+    color:#ff2f92;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+/* PARRAFO */
+.texto p{
+    font-size:16px;
+    color:#444;
+    line-height:1.6;
+}
+
+.title2{ 
+    font-size:28px;
+    color:#ffffff;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+.foot{
+
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.foot2{
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* IMAGEN */
+.imagen img{
+   width:300px;
+   height:430px;
+   object-fit:cover;
+   border-radius:20px;
+   box-shadow:0px 5px 15px rgba(0,0,0,0.2);
+   gap: 20px;
+}
